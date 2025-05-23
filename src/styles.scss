@@ -1,0 +1,52 @@
+/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../src/assets/css/style.css";
+@import "../src/assets/css/all-fontawesome.min.css";
+
+
+.owl-carousel.owl-theme.owl-loaded.owl-responsive.owl-drag {
+    position: relative;
+}
+
+.owl-prev {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+}
+.owl-next {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+}
+.owl-theme .owl-nav [class*=owl-] {
+    color: #fc8c03;
+    font-size:23px;
+    margin: 5px;
+    background: #ffffff;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 100%;
+    text-align: center;
+    width:42px;
+    height:42px;
+}
+.owl-theme .owl-dots .owl-dot span {
+    width: 35px;
+    height: 3px;
+    margin: 5px 7px;
+    background: #ffffff;
+    display: block;
+    transition: opacity .2s ease;
+    border-radius: 0px;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #fc8c03;
+}
+.owl-theme .owl-dots {
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+    position: absolute;
+    bottom: 20px;
+    right: 0px;
+    left: 0px;
+}
