@@ -1,0 +1,142 @@
+
+.testimonial-area {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.ts-bg{
+  background: var(--theme-color2);
+}
+
+// .ts-bg::before{
+//   content: "";
+//   position: absolute;
+//   width: 100%;
+//   height: 100%;
+//   left: 0;
+//   top: 0;
+//   background-image: url('../../../assets/img/shape/');
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   background-position: center;
+//   opacity: .1;
+//   z-index: -1;
+// }
+
+.testimonial-item {
+  position: relative;
+  background: var(--color-white);
+  padding: 20px 15px;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+
+.testimonial-quote p{
+  position: relative;
+  color: var(--color-dark);
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 500;
+  z-index: 1;
+}
+.testimonial-quote {
+    padding: 20px 15px;
+}
+.testimonial-content {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.testimonial-author-img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50px;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+
+.testimonial-author-img img {
+  border-radius: 50%;
+}
+
+.testimonial-area.bg .testimonial-author-img img{
+  border-color: var(--theme-bg-light);
+}
+
+.testimonial-author-info{
+  position: relative;
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+.testimonial-author-info::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  border-left: 4px solid var(--theme-color);
+  border-radius: 50px;
+}
+
+.testimonial-author-info h4 {
+  font-size: 20px;
+  color: var(--theme-color2);
+}
+
+.testimonial-author-info p {
+  color: var(--theme-color);
+  font-weight: 600;
+}
+
+.testimonial-quote-icon{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: .15;
+  background: none;
+      width: 200px;
+    height: 200px;
+}
+
+.testimonial-shadow-icon img{
+  width: 200px !important;
+}
+
+.testimonial-rate {
+  color: #FB9902;
+}
+
+.testimonial-area.bg .testimonial-author-info h4{
+  color: var(--theme-color2)
+}
+
+/* testimonial-slider */
+.testimonial-slider .owl-dots {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.testimonial-slider .owl-dots .owl-dot span {
+  background: var(--theme-color);
+  margin: 5px;
+  border-radius: 10px;
+  width: 15px;
+  height: 7px;
+  display: inline-block;
+  transition: var(--transition);
+}
+
+.testimonial-slider .owl-dots .owl-dot.active span {
+  background-color: var(--theme-color);
+  width: 8px;
+  height: 8px;
+}
+
+.partner-area {
+    margin-top: 50px!important;
+}
