@@ -4,12 +4,11 @@ import { WorkingprocessComponent } from "../homelayout/workingprocess/workingpro
 import { ProjectskillsComponent } from '../homelayout/projectskills/projectskills.component';
 import { CarouselModule, OwlOptions } from 'ngx-owl-carousel-o';
 import { TeamComponent } from "../homelayout/team/team.component";
-import { LogosliderComponent } from "../homelayout/logoslider/logoslider.component";
 
 @Component({
   selector: 'app-about',
   standalone: true,
-  imports: [AboutsectionComponent, WorkingprocessComponent, ProjectskillsComponent, CarouselModule, TeamComponent, LogosliderComponent],
+  imports: [AboutsectionComponent, WorkingprocessComponent, ProjectskillsComponent, CarouselModule, TeamComponent],
   templateUrl: './about.component.html',
   styleUrl: './about.component.scss',
   schemas:[CUSTOM_ELEMENTS_SCHEMA]

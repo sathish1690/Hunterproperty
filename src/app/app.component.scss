@@ -1,0 +1,31 @@
+modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 998;
+  display: none;
+}
+.modal-backdrop.show {
+  display: block;
+}
+.modal-body{
+    padding: 0px 20px;
+}
+.popup {
+  position: fixed;
+  top: 30%;
+  left: 25%;
+  right: 25%;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  z-index: 9999;
+  display: none;
+}
+.close-btn{
+    position: absolute;
+    right: 0px;
+}

@@ -1,3 +1,72 @@
+<div  #backdropDiv class="modal-backdrop"  [class.show]="isPopupVisible" *ngIf="isPopupVisible"></div>
+
+<!-- Popup -->
+<div #popupDiv class="popup" [style.display]="isPopupVisible ? 'block' : 'none'">
+  <div class="modal-dialog  modal-dialog-centered">
+    <div class="modal-content ">
+      <div class="modal-header border-0 mb-30">
+        <h5 class="modal-title" id="exampleModalLabel">Get A Quote</h5>
+        <span type="button" class="fs-3 border-0 bg-white close-btn" (click)="hidePopup()"><i class="fa-solid fa-circle-xmark"></i></span>
+
+      </div>
+      <div class="modal-body">
+         <div class="quote-form">
+            <form action="#">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="form-group">
+                            <div class="form-icon">
+                                <i class="far fa-user-tie"></i>
+                                <input type="text" class="form-control" placeholder="First Name">
+                            </div>
+                        </div>
+                    </div>
+                  <div class="col-lg-6">
+                        <div class="form-group">
+                            <div class="form-icon">
+                                <i class="far fa-user-tie"></i>
+                                <input type="text" class="form-control" placeholder="Last Name">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="form-group">
+                            <div class="form-icon">
+                                <i class="far fa-phone"></i>
+                                <input type="text" class="form-control" placeholder="Your Phone">
+                            </div>
+                        </div>
+                    </div>
+                       <div class="col-lg-6">
+                        <div class="form-group">
+                            <div class="form-icon">
+                                <i class="far fa-envelope"></i>
+                                <input type="email" class="form-control" placeholder="Your Email">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="form-group">
+                            <div class="form-icon">
+                                <i class="far fa-comment-lines"></i>
+                                <textarea class="form-control" cols="30" rows="4" placeholder="Your Message"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <button type="submit" class="theme-btn">Get a Quote<i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </form>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
 <app-header></app-header>
 <router-outlet />
 <app-footer></app-footer>
+
+
