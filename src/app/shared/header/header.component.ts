@@ -11,12 +11,12 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
 export class HeaderComponent {
 
   goToWhatsApp(): void {
-  const phoneNumber = '9003218011'; // Use international format, no + or spaces
+  const phoneNumber = '7550110784'; // Use international format, no + or spaces
   const url = `https://wa.me/${phoneNumber}`;
   window.open(url, '_blank');
 }
 callNow(): void {
-  const phoneNumber = '9003218011'; // Include country code if needed
+  const phoneNumber = '7550110784'; // Include country code if needed
   window.location.href = `tel:${phoneNumber}`;
 }
 }

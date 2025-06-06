@@ -1,6 +1,6 @@
 <div  #backdropDiv class="modal-backdrop"  [class.show]="isPopupVisible" *ngIf="isPopupVisible"></div>
 
-<!-- Popup -->
+
 <div #popupDiv class="popup" [style.display]="isPopupVisible ? 'block' : 'none'">
   <div class="modal-dialog  modal-dialog-centered">
     <div class="modal-content ">
@@ -64,9 +64,16 @@
     </div>
   </div>
 </div>
-
+ <div class="preloader" *ngIf="isLoading">
+        <div class="loader-ripple">
+            <div></div>
+            <div></div>
+        </div>
+    </div>
 <app-header></app-header>
+<main class="main">
 <router-outlet />
+</main>
 <app-footer></app-footer>
 
 
