@@ -12,8 +12,8 @@ Version         : 1.0
     // wow init
     new WOW().init();
 
-
-
+    // scroll to top
+   
 })(jQuery);
 
 

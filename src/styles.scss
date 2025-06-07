@@ -56,18 +56,29 @@
 }
 .popup {
   position: fixed;
-  top: 30%;
+  top: 15%;
   left: 25%;
   right: 25%;
   background: white;
-  padding: 20px;
+  padding: 10px;
   border-radius: 8px;
   z-index: 9999;
   display: none;
 }
-.close-btn{
+.close-btn {
     position: absolute;
-    right: 0px;
+    right: 14px;
+    background: #fc8c03;
+    color: #fff;
+    border-radius: 100%;
+    font-size: 20px;
+    border: 0px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    top: 15px;
+    margin: 0px;
+    padding: 0px 0px 4px 1px;
 }
 
 @media screen and (max-width: 640px) and (min-width: 320px) {
