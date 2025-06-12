@@ -25,14 +25,13 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
 	  
-	- name: Install dependencies
-	  run: npm install --legacy-peer-deps
-	  
-	- name: 📦 Install dependencies
-      run: npm install
+    - name: Install dependencies
+      run: npm install --legacy-peer-deps
 
     - name: 🛠️ Build Angular app
       run: ng build --configuration production
 
     - name: ✅ Run unit tests
       run: npm run test -- --watch=false --browsers=ChromeHeadless
+
+
