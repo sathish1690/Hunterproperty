@@ -992,6 +992,7 @@ label {
   align-items: center;
   flex-wrap: wrap;
   gap: 25px;
+  margin-bottom:5px ;
 }
 
 .header-top-list a {
@@ -1030,6 +1031,7 @@ label {
 .header-top-list .list-item .content h6{
   color: var(--color-white);
   font-weight: 500;
+  margin-bottom: 0px;
 }
 
 .header-top-list .list-item .content a{
@@ -1220,7 +1222,7 @@ label {
 
   .navbar .nav-item .nav-link {
     margin-right: 22px;
-    padding: 30px 0 30px 0;
+    padding: 7px 0 7px 0;
     font-size: 17px;
     font-weight: 600;
     color: var(--color-dark);
@@ -1462,7 +1464,7 @@ label {
   }
 
   .navbar .offcanvas{
-    width: 300px;
+    width: 300px!important;
   }
 
   .navbar .offcanvas-header .btn-close{
@@ -1962,6 +1964,7 @@ label {
   justify-content: center;
   position: relative;
   z-index: 1;
+  height: 100vh;
 }
 
 .hero-single::before {
@@ -3068,12 +3071,12 @@ label {
 }
 
 .portfolio-slider:hover .owl-nav .owl-prev {
-  left: -10px;
+  left: -25px;
   opacity: 1;
 }
 
 .portfolio-slider:hover .owl-nav .owl-next {
-  right: -10px;
+  right: -25px;
   opacity: 1;
 }
 
@@ -5146,7 +5149,7 @@ label {
 
 #scroll-top {
   position: fixed;
-  bottom: -20px;
+  bottom: 20px;
   right: 30px;
   z-index: 99;
   font-size: 20px;
@@ -5162,8 +5165,7 @@ label {
   text-align: center;
   box-shadow: var(--box-shadow2);
   transition: var(--transition);
-  opacity: 0;
-  visibility: hidden;
+  opacity: 1;
   transform: rotate(-40deg);
   z-index: 1;
 }

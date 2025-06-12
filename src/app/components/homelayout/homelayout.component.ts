@@ -14,12 +14,11 @@ import { HomeblogComponent } from './homeblog/homeblog.component';
 import { WorkingprocessComponent } from './workingprocess/workingprocess.component';
 import { ProjectskillsComponent } from './projectskills/projectskills.component';
 import { RequestquoteComponent } from "./requestquote/requestquote.component";
-import { LogosliderComponent } from './logoslider/logoslider.component';
 
 @Component({
   selector: 'app-homelayout',
   standalone: true,
-  imports: [BannerComponent, FeatureareaComponent, AboutsectionComponent, ServicesectionComponent, OurskillsComponent, HomeportfolioComponent, PricingComponent, PricingComponent, WhychooseusComponent, TeamComponent, FaqComponent, HomeblogComponent, WorkingprocessComponent, ProjectskillsComponent, RequestquoteComponent, LogosliderComponent],
+  imports: [BannerComponent, FeatureareaComponent, AboutsectionComponent, ServicesectionComponent, OurskillsComponent, HomeportfolioComponent, PricingComponent, PricingComponent, WhychooseusComponent, TeamComponent, FaqComponent, HomeblogComponent, WorkingprocessComponent, ProjectskillsComponent, RequestquoteComponent],
   templateUrl: './homelayout.component.html',
   styleUrl: './homelayout.component.scss'
 })
