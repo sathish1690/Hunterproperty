@@ -25,8 +25,11 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
 
+    - name: 📦 Install dependencies
+      run: npm ci
+
     - name: 🛠️ Build Angular app
-      run: npm run build -- --configuration production
+      run: ng build --configuration production
 
     - name: ✅ Run unit tests
       run: npm run test -- --watch=false --browsers=ChromeHeadless
