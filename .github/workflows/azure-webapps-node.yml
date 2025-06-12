@@ -34,9 +34,4 @@ jobs:
     - name: ✅ Run unit tests
       run: npm run test -- --watch=false --browsers=ChromeHeadless
 
-    - name: 📤 Upload build artifacts
-      if: success()
-      uses: actions/upload-artifact@v3
-      with:
-        name: dist
-        path: dist/
+
