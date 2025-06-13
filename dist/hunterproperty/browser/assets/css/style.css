@@ -3285,7 +3285,7 @@ label {
 
 .pricing-feature li i {
   color: var(--theme-color);
-  margin-right: 10px;
+  margin-right: 6px;
 }
 
 .pricing-feature li .not-include{

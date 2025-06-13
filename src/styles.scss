@@ -96,10 +96,10 @@ button.accordion-button {
 {
     box-shadow:none
 }
-.accordion-body {
+.pricing-feature .accordion-body {
     padding: 10px;
 }
-.accordion-button::after{
+.pricing-feature .accordion-button::after{
     font-family: 'Font Awesome 6 Free';
     content: "\f067";
     font-weight: 900; 
@@ -108,7 +108,7 @@ button.accordion-button {
     width: auto;
 
 }
-.accordion-button:not(.collapsed)::after{
+.pricing-feature .accordion-button:not(.collapsed)::after{
     font-family: 'Font Awesome 6 Free';
     content: "\f068";
     font-weight: 900; 
@@ -116,20 +116,36 @@ button.accordion-button {
     transition: none;
 }
 
-.accordion-columns {
+.pricing-feature .accordion-columns {
   display: flex;
 }
 
-.accordion {
+.pricing-feature .accordion {
   flex: 1;
 }
 
-.accordion-body{
-  overflow: hidden;
-  max-height: 0;
+.pricing-feature .accordion-body{
+  overflow-y: auto;
+  height: 50vh;
   transition: max-height 0.5s ease;
+  background: #fff6f6;
+}
+button.accordion-button.collapsed {
+    border-bottom: 1px solid #ccc;
+}
+.pricing-feature .accordion-body::-webkit-scrollbar {
+  width: 3px;
 }
 
+.pricing-feature .accordion-body::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+.pricing-feature .accordion-body::-webkit-scrollbar-thumb {
+  background: #f90; /* Orange scroll */
+  border-radius: 10px;
+}
 
 
 @media screen and (max-width: 640px) and (min-width: 320px) {

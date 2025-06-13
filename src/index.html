@@ -48,32 +48,7 @@
     <script src="assets/js/jquery.nice-select.min.js"></script>
     <script src="assets/js/wow.min.js"></script>
     <script src="assets/js/main.js"></script>
-    <script>
-$('.accordion-button').click(function () {
-    // Toggle the clicked one
-    const content = $(this).next('.accordion-body');
-    content.toggleClass('open');
 
-    // Close others if needed (optional):
-    // $('.design-content').not(content).removeClass('open');
-
-    // Match max height across all open sections
-    setTimeout(() => {
-      let maxHeight = 0;
-
-      $('.accordion-body.open').each(function () {
-        $(this).css('max-height', 'none'); // Temporarily disable limit
-        const height = $(this).outerHeight();
-        maxHeight = Math.max(maxHeight, height);
-        $(this).css('max-height', ''); // Reset
-      });
-
-      $('.accordion-body.open').css('max-height', maxHeight + 'px');
-    }, 300); // Wait for transition
-  });
-
-  
-</script>
 
 </body>
 </html>
