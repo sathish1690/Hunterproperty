@@ -3,10 +3,10 @@ name: hunterproperty
 on:
   push:
     branches:
-      - https://github.com/sathish1690/Hunterproperty
+      - main
   pull_request:
     branches:
-      - /tree/hunterproperty_v2
+      - main
 jobs:
   build:
     runs-on: ubuntu-latest
