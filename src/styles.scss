@@ -5,7 +5,7 @@
 @import "../src/assets/css/animate.min.css";
 @import "../src/assets/css/magnific-popup.min.css";
 @import "../src/assets/css/nice-select.min.css";
-
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
 
 
 .owl-carousel.owl-theme.owl-loaded.owl-responsive.owl-drag {
@@ -80,6 +80,73 @@
     margin: 0px;
     padding: 0px 0px 4px 1px;
 }
+button.accordion-button {
+    font-size: 14px;
+    font-weight: 600;
+}
+.accordion {
+    border: 0px!important;
+    --bs-accordion-border-color: none;
+}
+.accordion-button:not(.collapsed) {
+    background: none;
+    outline:none;
+}
+.accordion-button:focus
+{
+    box-shadow:none
+}
+.pricing-feature .accordion-body {
+    padding: 10px;
+}
+.pricing-feature .accordion-button::after{
+    font-family: 'Font Awesome 6 Free';
+    content: "\f067";
+    font-weight: 900; 
+    background:none;
+    transition: none;
+    width: auto;
+
+}
+.pricing-feature .accordion-button:not(.collapsed)::after{
+    font-family: 'Font Awesome 6 Free';
+    content: "\f068";
+    font-weight: 900; 
+    background:none;
+    transition: none;
+}
+
+.pricing-feature .accordion-columns {
+  display: flex;
+}
+
+.pricing-feature .accordion {
+  flex: 1;
+}
+
+.pricing-feature .accordion-body{
+  overflow-y: auto;
+  height: 50vh;
+  transition: max-height 0.5s ease;
+  background: #fff6f6;
+}
+button.accordion-button.collapsed {
+    border-bottom: 1px solid #ccc;
+}
+.pricing-feature .accordion-body::-webkit-scrollbar {
+  width: 3px;
+}
+
+.pricing-feature .accordion-body::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+.pricing-feature .accordion-body::-webkit-scrollbar-thumb {
+  background: #f90; /* Orange scroll */
+  border-radius: 10px;
+}
+
 
 @media screen and (max-width: 640px) and (min-width: 320px) {
 .popup {

@@ -10,92 +10,943 @@
                         </div>
                     </div>
                 </div>
-                <div class="row g-4 g-lg-5">
-                    <div class="col-md-6 col-lg-4">
+                <div class="row g-4 g-lg-5 accordion-columns" id="accordionExample">
+                    <div class="col-md-6 col-lg-3">
                         <div class="pricing-item wow fadeInUp" data-wow-delay=".25s">
                             <div class="pricing-header">
-                                <h5>Basic</h5>
+                                <h5>Basic Package</h5>
                             </div>
                             <div class="pricing-price">
-                                <div class="pricing-icon">
+                                <!-- <div class="pricing-icon">
                                     <img src="assets/img/icon/building.svg" alt="">
-                                </div>
+                                </div> -->
                                 <div class="pricing-amount">
-                                    <strong>$359</strong><span class="pricing-amount-type">/Monthly</span>
+                                    <strong>₹ 2199</strong><span class="pricing-amount-type">/Sqft</span>
                                 </div>
                             </div>
-                            <div class="pricing-btn">
-                                <a href="pricing.html" class="theme-btn2">Purchase Now <i class="fas fa-arrow-right"></i></a>
-                            </div>
+                            
                             <div class="pricing-feature">
-                                <ul>
-                                    <li><i class="fas fa-check-circle"></i>All Basic Services</li>
-                                    <li><i class="fas fa-check-circle"></i>Apartment Design</li>
-                                    <li><i class="fas fa-check-circle"></i>House Planning & Design</li>
-                                    <li><i class="fas fa-check-circle"></i>Custom House Design</li>
-                                    <li><i class="fas fa-xmark-circle not-include"></i>Building Maintenance</li>
-                                    <li><i class="fas fa-xmark-circle not-include"></i>24/7 Customer Support</li>
-                                </ul>
+                             <div class="accordion">
+                                 <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingDesign">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#design" aria-expanded="true" aria-controls="design">
+                                        Design
+                                    </button>
+                                    </h2>
+                                    <div id="design" class="accordion-collapse collapse" aria-labelledby="headingDesign" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li><i class="fas fa-check-circle"></i>Scheme Drawing: All Floors (2D)</li>
+                                            <li><i class="fas fa-check-circle"></i>Elevation Design: (3D)</li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingProject">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#projectmanagement" aria-expanded="false" aria-controls="projectmanagement">
+                                        Project Management
+                                    </button>
+                                    </h2>
+                                    <div id="projectmanagement" class="accordion-collapse collapse" aria-labelledby="headingProject" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li><i class="fas fa-check-circle"></i>Site Engineer: One Visit Per Day</li>
+                                            <li><i class="fas fa-check-circle"></i>Project Manager: Visit Site Once in a Week</li>
+                                            <li><i class="fas fa-check-circle"></i>Android / IOS App: Access to APP for Site Status Update</li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingStructure">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#structure" aria-expanded="false" aria-controls="structure">
+                                        Structure
+                                    </button>
+                                    </h2>
+                                    <div id="structure" class="accordion-collapse collapse" aria-labelledby="headingStructure" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li><i class="fas fa-check-circle"></i>Basement Height: Upto 2 Feet</li>
+                                            <li><i class="fas fa-check-circle"></i>Steel: Any ISI Brand</li>
+                                            <li><i class="fas fa-check-circle"></i>AAC: For Partition Walls. 8-Inch Thick Exterior Walls | 4 Inch Thick Inner Walls</li>
+                                            <li><i class="fas fa-check-circle"></i>Cement: Penna / Priya</li>
+                                            <li><i class="fas fa-check-circle"></i>M Sand: Blockwork & All Masonry Works</li>
+                                            <li><i class="fas fa-check-circle"></i>P Sand: Plastering Works</li>
+                                            <li><i class="fas fa-check-circle"></i>Concrete Grade: M20 (Manual Mix)</li>
+                                            <li><i class="fas fa-check-circle"></i>Ceiling Height: 10 Feet</li>
+                                            <li><i class="fas fa-check-circle"></i>Steel Reinforcement: As per Standard</li>
+                                            <li><i class="fas fa-check-circle"></i>Parapet Wall: 3 Feet Height | 4” Thick (Only for Floor with Headroom)</li>
+
+                                        </ul>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingPlumbing">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#plumbing" aria-expanded="false" aria-controls="plumbing">
+                                        Bathroom & Plumbing
+                                    </button>
+                                    </h2>
+                                    <div id="plumbing" class="accordion-collapse collapse" aria-labelledby="headingPlumbing" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li><i class="fas fa-check-circle"></i>Wall Tiles: Upto 7’ Height. Size 2’X1’ Vitrified Tile. Upto ₹40/Sqft</li>
+                                            <li><i class="fas fa-check-circle"></i>Bath & CP Fittings: Cera | Upto ₹12000 Per Bathroom | Floor Mounted EWC, Wall Mounted Wash Basin, Pillar Tap, Health Faucet, Shower Set, 2-in-1 Wall Mixer</li>
+                                            <li><i class="fas fa-check-circle"></i>Plumbing Pipes & Fittings: Inner CPVC, Outer PVC, Brands: Any ISI Brand</li>
+                                            <li><i class="fas fa-check-circle"></i>Overhead Tank: 1000 Litres Sintex | 3 Layer | UV Protected | White Colour</li>
+
+                                        </ul>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingFlooring">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flooring" aria-expanded="false" aria-controls="flooring">
+                                        Flooring
+                                    </button>
+                                    </h2>
+                                    <div id="flooring" class="accordion-collapse collapse" aria-labelledby="headingFlooring" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li><i class="fas fa-check-circle"></i>Living, Dining, Bedrooms & Kitchen: 2’X2’ | Vitrified Tiles Upto ₹45/Sqft. Anuj / Sparrow</li>
+                                            <li><i class="fas fa-check-circle"></i>Balcony & Utility: Size 1’X1’ | Upto ₹35/Sqft</li>
+                                            <li><i class="fas fa-check-circle"></i>Staircase: Size 1’X1’ Tile: Upto ₹35/Sqft</li>
+                                            <li><i class="fas fa-check-circle"></i>Car Parking: ‘1X1’ Parking Tile | Upto ₹35/Sqft</li>
+                                            <li><i class="fas fa-check-circle"></i>Terrace Flooring: Screed Concreting with Waterproofing</li>
+
+                                        </ul>
+                                    </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingDining">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#dining" aria-expanded="false" aria-controls="dining">
+                                        Kitchen & Dining
+                                    </button>
+                                    </h2>
+                                    <div id="dining" class="accordion-collapse collapse" aria-labelledby="headingDining" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li><i class="fas fa-check-circle"></i>Wall Tile: Vitrified Tile (2’X1’) | Upto ₹45/Sqft</li>
+                                            <li><i class="fas fa-check-circle"></i>Sink Faucet: Upto ₹900/ No</li>
+                                            <li><i class="fas fa-check-circle"></i>Kitchen Sink: Stainless Steel Single Bowl Upto ₹2800</li>
+                                            <li><i class="fas fa-check-circle"></i>Dining: Wall Mounted Wash Basin</li>
+                                            <li><i class="fas fa-check-circle"></i>Kitchen Granite Top: Upto ₹90/Sqft</li>
+
+                                        </ul>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingDoor">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#door" aria-expanded="false" aria-controls="door">
+                                        Door, Windows and Railing
+                                    </button>
+                                    </h2>
+                                    <div id="door" class="accordion-collapse collapse" aria-labelledby="headingDoor" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li><i class="fas fa-check-circle"></i>Main Door: Malaysian Teak Door & Teak Frame | 32mm Thickness | 5’X3’ Thick Frame | 7’ Height 3.5 Feet Width</li>
+                                            <li><i class="fas fa-check-circle"></i>Room Doors: White Panel Door | Sal Wood Frame | 7’X3’</li>
+                                            <li><i class="fas fa-check-circle"></i>Bathroom Doors: PVC Door | 7’X2.5’</li>
+                                            <li><i class="fas fa-check-circle"></i>Windows: Aluminium Sliding Window | Max 4’X4’ | One Window Per Room | 5mm Clear Glass</li>
+                                            <li><i class="fas fa-check-circle"></i>Staircase Railing: MS Railing</li>
+                                            <li><i class="fas fa-check-circle"></i>Balcony Railing: MS Railing</li>
+
+                                        </ul>		
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingPainting">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#painting" aria-expanded="false" aria-controls="painting">
+                                        Painting
+                                    </button>
+                                    </h2>
+                                    <div id="painting" class="accordion-collapse collapse" aria-labelledby="headingPainting" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li><i class="fas fa-check-circle"></i>Inner Wall Putty: 2 Coats of Wall Putty | Any ISI Brand</li>
+                                            <li><i class="fas fa-check-circle"></i>Wall Painting: 1 Coat of Primer | 2 Coats of Tractor Emulsion | Any ISI Brand</li>
+                                            <li><i class="fas fa-check-circle"></i>Ceiling Painting: 1 Coat of Primer | 2 Coats of Tractor Emulsion | Any ISI Brand</li>
+                                            <li><i class="fas fa-check-circle"></i>Exterior Paint: 1 Coat of Primer | 2 Coats of Ace | Any ISI Brand</li>
+
+                                        </ul>				
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingelectrical">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#electrical" aria-expanded="false" aria-controls="electrical">
+                                        Electrical
+                                    </button>
+                                    </h2>
+                                    <div id="electrical" class="accordion-collapse collapse" aria-labelledby="headingelectrical" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li><i class="fas fa-check-circle"></i>Wires - Essar</li>
+                                            <li><i class="fas fa-check-circle"></i>Switches - Fybros</li>
+                                            <li><i class="fas fa-check-circle"></i>Bedroom: 2 Switch Box(8-Module). One at Entrance and one at Bed-side</li>
+                                            <li><i class="fas fa-check-circle"></i>Bathroom: 1 Switch Box(Inner) 4-Module, 1 Switch Box(Outer) 3-Module. Point for Heater & Exhaust</li>
+                                            <li><i class="fas fa-check-circle"></i>Living Room: Upto 4 Switch Box (8-Module)</li>
+                                            <li><i class="fas fa-check-circle"></i>Dining: 1 Switch (8-Module)</li>
+                                            <li><i class="fas fa-check-circle"></i>Pooja: 1 Switch (3-Module)</li>
+                                            <li><i class="fas fa-check-circle"></i>Kitchen: 3 Switch Box (6-Module), Point for HOB, Chimney, RO</li>
+                                            <li><i class="fas fa-check-circle"></i>Utility: 1 Switch Box (4-Modules)</li>
+                                            <li><i class="fas fa-check-circle"></i>AC Points: 1 for Each Bedroom</li>
+                                            <li><i class="fas fa-check-circle"></i>Entrance: 1 Switch Box (6-Module)</li>
+                                            <li><i class="fas fa-check-circle"></i>Balconies: 1 Switch Box (3-Module)</li>
+
+                                        </ul>				
+                                    </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingnotincluded">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#notincluded" aria-expanded="false" aria-controls="notincluded">
+                                        What's Not Included
+                                    </button>
+                                    </h2>
+                                    <div id="notincluded" class="accordion-collapse collapse" aria-labelledby="headingnotincluded" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <ul>
+                                        <li><i class="fas fa-check-circle"></i>Compound Wall &#64; 425/Sqft & Gate</li>
+                                        <li><i class="fas fa-check-circle"></i>Sump & Septic Tank &#64; 24/Litre</li>
+                                        <li><i class="fas fa-check-circle"></i>Lift, Lift Pit and Shaft</li>
+                                        <li><i class="fas fa-check-circle"></i>Electricity Connection</li>
+                                        <li><i class="fas fa-check-circle"></i>Building Plan Approval</li>
+                                        <li><i class="fas fa-check-circle"></i>Elevation Special Materials</li>
+
+                                        </ul>				
+                                    </div>
+                                    </div>
+                                </div>
+                             </div>
+                            </div>
+                             <div class="pricing-btn">
+                                <a href="pricing.html" class="theme-btn2">Purchase Now <i class="fas fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4">
+                    <div class="col-md-6 col-lg-3">
                         <div class="pricing-item active wow fadeInDown" data-wow-delay=".25s">
                             <div class="pricing-header">
-                                <h5>Standard</h5>
+                                <h5>Standard Package</h5>
                             </div>
                             <div class="pricing-price">
-                                <div class="pricing-icon">
+                                <!-- <div class="pricing-icon">
                                     <img src="assets/img/icon/building.svg" alt="">
-                                </div>
+                                </div> -->
                                 <div class="pricing-amount">
-                                    <strong>$559</strong><span class="pricing-amount-type">/Monthly</span>
+                                    <strong>₹ 2399</strong><span class="pricing-amount-type">/Sqft</span>
                                 </div>
+                            </div>
+                            
+                            <div class="pricing-feature">
+                                <div class="accordion">
+                                 <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingDesign">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#design" aria-expanded="true" aria-controls="design">
+                                        Design
+                                    </button>
+                                    </h2>
+                                    <div id="design" class="accordion-collapse collapse" aria-labelledby="headingDesign" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li><i class="fas fa-check-circle"></i> Scheme Drawing: All Floors (2D)</li>
+
+                                            <li><i class="fas fa-check-circle"></i> Elevation Design: (3D)</li>
+
+                                            <li><i class="fas fa-check-circle"></i>Half Layout: All Floors (3D)</li>
+
+                                            <li><i class="fas fa-check-circle"></i>Electrical Drawings: All Floors (2D)</li>
+
+                                            <li><i class="fas fa-check-circle"></i> Plumbing Drawing: All Floors (2D)</li>
+
+                                            <li><i class="fas fa-check-circle"></i>Working Drawing: All Floors (2D)</li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingProject">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#projectmanagement" aria-expanded="false" aria-controls="projectmanagement">
+                                        Project Management
+                                    </button>
+                                    </h2>
+                                    <div id="projectmanagement" class="accordion-collapse collapse" aria-labelledby="headingProject" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li><i class="fas fa-check-circle"></i>Site Engineer: Dedicated Full-Time Site Engineer</li>
+                                            <li><i class="fas fa-check-circle"></i>Project Manager: Visit Site Twice in a Week</li>
+                                            <li><i class="fas fa-check-circle"></i>Architect: Support Till Design Completion</li>
+
+                                        </ul>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingStructure">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#structure" aria-expanded="false" aria-controls="structure">
+                                        Structure
+                                    </button>
+                                    </h2>
+                                    <div id="structure" class="accordion-collapse collapse" aria-labelledby="headingStructure" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li><i class="fas fa-check-circle"></i>Basement Height: Upto 3 Feet</li>
+                                            <li><i class="fas fa-check-circle"></i>Steel: Arun TMT / GBR or Equivalent</li>
+                                            <li><i class="fas fa-check-circle"></i>Chamber Bricks: For Partition Walls. 9-Inch Thick Exterior Walls | 4 Inch Thick Inner Walls</li>
+                                            <li><i class="fas fa-check-circle"></i>Cement: Ramco / Dalmia</li>
+                                            <li><i class="fas fa-check-circle"></i>M Sand: Blockwork & All Masonry Works</li>
+                                            <li><i class="fas fa-check-circle"></i>P Sand: Plastering Works</li>
+                                            <li><i class="fas fa-check-circle"></i>Concrete Grade: M20 | RMC for Roof</li>
+                                            <li><i class="fas fa-check-circle"></i>Ceiling Height: 10 Feet</li>
+                                            <li><i class="fas fa-check-circle"></i>Steel Reinforcement: As per Standard</li>
+                                            <li><i class="fas fa-check-circle"></i>Parapet Wall: 3 Feet Height | 6’ Thick (Only for Floor with Headroom)</li>
+
+                                        </ul>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingPlumbing">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#plumbing" aria-expanded="false" aria-controls="plumbing">
+                                        Bathroom & Plumbing
+                                    </button>
+                                    </h2>
+                                    <div id="plumbing" class="accordion-collapse collapse" aria-labelledby="headingPlumbing" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li><i class="fas fa-check-circle"></i>Wall Tiles: Upto Ceiling (Full Height). Size 2’X2’ Vitrified Tile. Upto ₹50/Sqft. 1 Colour for 2 Bathrooms</li>
+                                            <li><i class="fas fa-check-circle"></i>Bath & CP Fittings: Parryware | Upto ₹17000 Per Bathroom | Wall Mounted EWC, Wall Mounted Wash Basin, Pillar Tap, Health Faucet, Shower Set, 2-in-1 Wall Mixer</li>
+                                            <li><i class="fas fa-check-circle"></i>Plumbing Pipes & Fittings: Inner CPVC, Outer PVC, Brands: Any ISI Brand</li>
+                                            <li><i class="fas fa-check-circle"></i>Overhead Tank: 2000 Litres Sintex | 3 Layer | UV Protected | White Colour</li>
+
+                                        </ul>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingFlooring">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flooring" aria-expanded="false" aria-controls="flooring">
+                                        Flooring
+                                    </button>
+                                    </h2>
+                                    <div id="flooring" class="accordion-collapse collapse" aria-labelledby="headingFlooring" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li><i class="fas fa-check-circle"></i>Living, Dining, Bedrooms & Kitchen: 4’X2’ | Vitrified Tiles Upto ₹65/Sqft. 1 Model for Living, Dining and Kitchen. KAG / Sunheart or Equivalent</li>
+                                            <li><i class="fas fa-check-circle"></i>Balcony & Utility: Size 2’X2’ | Upto ₹50/Sqft | Antiskid</li>
+                                            <li><i class="fas fa-check-circle"></i>Staircase: Full Body Tile: Upto ₹110/Sqft</li>
+                                            <li><i class="fas fa-check-circle"></i>Car Parking: ‘1X1’ Heavy Duty Tile | Upto ₹50/Sqft</li>
+                                            <li><i class="fas fa-check-circle"></i>Terrace Flooring: Screed Concreting with Waterproofing</li>
+
+                                        </ul>
+                                    </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingDining">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#dining" aria-expanded="false" aria-controls="dining">
+                                        Kitchen & Dining
+                                    </button>
+                                    </h2>
+                                    <div id="dining" class="accordion-collapse collapse" aria-labelledby="headingDining" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li><i class="fas fa-check-circle"></i>Wall Tile: Vitrified Tile (2’X2’) | Upto ₹55/Sqft</li>
+                                            <li><i class="fas fa-check-circle"></i>Sink Faucet: Upto ₹2000/ No</li>
+                                            <li><i class="fas fa-check-circle"></i>Kitchen Sink: Stainless Steel Sink with Drain Upto ₹4000</li>
+                                            <li><i class="fas fa-check-circle"></i>Dining: Wall Mounted Wash Basin</li>
+                                            <li><i class="fas fa-check-circle"></i>Kitchen Granite Top: Upto ₹140/Sqft</li>
+
+                                        </ul>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingDoor">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#door" aria-expanded="false" aria-controls="door">
+                                        Door, Windows and Railing
+                                    </button>
+                                    </h2>
+                                    <div id="door" class="accordion-collapse collapse" aria-labelledby="headingDoor" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li><i class="fas fa-check-circle"></i>Main Door: Malaysian Teak Door & Teak Frame - Readmade | 35mm Thickness | 5’X3’ Thick Frame | 7’ Height 3.5 Feet Width | Upto 22000/Nos | 1 Nos Only</li>
+                                            <li><i class="fas fa-check-circle"></i>Room Doors: Flush Door | Sal Wood Frame | 7’X3’</li>
+                                            <li><i class="fas fa-check-circle"></i>Bathroom Doors: WPC Door & Frame | 7’X2.5’</li>
+                                            <li><i class="fas fa-check-circle"></i>Windows: UPVC Sliding White | Max 5’X5’ | One Window Per Room | 5mm Clear Glass</li>
+                                            <li><i class="fas fa-check-circle"></i>Staircase Railing: SS 304 Grade Railing</li>
+                                            <li><i class="fas fa-check-circle"></i>Balcony Railing: SS 304 Grade Railing with 8mm Toughened Glass with Posts</li>
+
+                                        </ul>		
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingPainting">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#painting" aria-expanded="false" aria-controls="painting">
+                                        Painting
+                                    </button>
+                                    </h2>
+                                    <div id="painting" class="accordion-collapse collapse" aria-labelledby="headingPainting" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li><i class="fas fa-check-circle"></i>Inner Wall Putty: 2 Coats of Wall Putty | Nippon</li>
+                                            <li><i class="fas fa-check-circle"></i>Wall Painting: 1 Coat of Primer | 2 Coats of Breeze Emulsion | Nippon</li>
+                                            <li><i class="fas fa-check-circle"></i>Ceiling Painting: 1 Coat of Primer | 2 Coats of Breeze Emulsion | Nippon</li>
+                                            <li><i class="fas fa-check-circle"></i>Exterior Paint: 1 Coat of Primer | 2 Coats of Sumo Xtra | Nippon</li>
+                                            <li><i class="fas fa-check-circle"></i>Elevation Putty: 2 Coat of Putty for Front Elevation | Nippon Exterior Putty</li>
+
+                                        </ul>				
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingelectrical">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#electrical" aria-expanded="false" aria-controls="electrical">
+                                        Electrical
+                                    </button>
+                                    </h2>
+                                    <div id="electrical" class="accordion-collapse collapse" aria-labelledby="headingelectrical" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li><i class="fas fa-check-circle"></i>Wires - Orbit (FRLS)</li>
+                                            <li><i class="fas fa-check-circle"></i>Switches - Legrand</li>
+                                            <li><i class="fas fa-check-circle"></i>Bedroom: 3 Switch Box(8-Module)</li>
+                                            <li><i class="fas fa-check-circle"></i>Bathroom: 1 Switch Box(Inner) 4-Module, 1 Switch Box(Outer) 3-Module. Point for Heater & Exhaust</li>
+                                            <li><i class="fas fa-check-circle"></i>Living Room: Upto 4 Switch Box (8-Module)</li>
+                                            <li><i class="fas fa-check-circle"></i>Dining: 1 Switch (8-Module)</li>
+                                            <li><i class="fas fa-check-circle"></i>Pooja: 1 Switch (3-Module)</li>
+                                            <li><i class="fas fa-check-circle"></i>Kitchen: 3 Switch Box (6-Module), Point for HOB, Chimney, RO</li>
+                                            <li><i class="fas fa-check-circle"></i>Utility: 1 Switch Box (4-Modules)</li>
+                                            <li><i class="fas fa-check-circle"></i>AC Points: 1 for Each Bedroom. 1 for Living Room</li>
+                                            <li><i class="fas fa-check-circle"></i>Entrance: 1 Switch Box (6-Module)</li>
+                                            <li><i class="fas fa-check-circle"></i>Balconies: 1 Switch Box (3-Module)</li>
+
+                                        </ul>				
+                                    </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingnotincluded">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#notincluded" aria-expanded="false" aria-controls="notincluded">
+                                        What's Not Included
+                                    </button>
+                                    </h2>
+                                    <div id="notincluded" class="accordion-collapse collapse" aria-labelledby="headingnotincluded" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li><i class="fas fa-check-circle"></i>Compound Wall &#64; 425/Sqft & Gate</li>
+                                            <li><i class="fas fa-check-circle"></i>Sump & Septic Tank &#64; 24/Litre</li>
+                                            <li><i class="fas fa-check-circle"></i>Lift, Lift Pit and Shaft</li>
+                                            <li><i class="fas fa-check-circle"></i>Electricity Connection</li>
+                                            <li><i class="fas fa-check-circle"></i>Building Plan Approval</li>
+                                            <li><i class="fas fa-check-circle"></i>Elevation Special Materials</li>
+
+                                        </ul>				
+                                    </div>
+                                    </div>
+                                </div>
+                             </div>
                             </div>
                             <div class="pricing-btn">
                                 <a href="pricing.html" class="theme-btn">Purchase Now <i class="fas fa-arrow-right"></i></a>
                             </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="pricing-item wow fadeInUp" data-wow-delay=".25s">
+                            <div class="pricing-header">
+                                <h5>Premium Package</h5>
+                            </div>
+                            <div class="pricing-price">
+                                <!-- <div class="pricing-icon">
+                                    <img src="assets/img/icon/building.svg" alt="">
+                                </div> -->
+                                <div class="pricing-amount">
+                                    <strong>₹ 2699</strong><span class="pricing-amount-type">/Sqft</span>
+                                </div>
+                            </div>
+                           
                             <div class="pricing-feature">
-                                <ul>
-                                    <li><i class="fas fa-check-circle"></i>All Basic Services</li>
-                                    <li><i class="fas fa-check-circle"></i>Apartment Design</li>
-                                    <li><i class="fas fa-check-circle"></i>House Planning & Design</li>
-                                    <li><i class="fas fa-check-circle"></i>Custom House Design</li>
-                                    <li><i class="fas fa-check-circle"></i>Building Maintenance</li>
-                                    <li><i class="fas fa-xmark-circle not-include"></i>24/7 Customer Support</li>
-                                </ul>
+                                <div class="accordion">
+                                 <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingDesign">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#design" aria-expanded="true" aria-controls="design">
+                                        Design
+                                    </button>
+                                    </h2>
+                                    <div id="design" class="accordion-collapse collapse" aria-labelledby="headingDesign" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li><i class="fas fa-check-circle"></i>Scheme Drawing: All Floors (2D)</li>
+
+                                            <li><i class="fas fa-check-circle"></i>Elevation Design: (3D)</li>
+
+                                            <li><i class="fas fa-check-circle"></i> Half Layout: All Floors (3D)</li>
+
+                                            <li><i class="fas fa-check-circle"></i>Electrical Drawings: All Floors (2D)</li>
+
+                                            <li><i class="fas fa-check-circle"></i>Plumbing Drawing: All Floors (2D)</li>
+
+                                            <li><i class="fas fa-check-circle"></i>Working Drawing: All Floors (2D)</li>
+
+                                            <li><i class="fas fa-check-circle"></i> Soil Test Report</li>
+
+                                            <li><i class="fas fa-check-circle"></i> Structural Drawings</li>
+
+                                            <li><i class="fas fa-check-circle"></i>  Furniture Layout: All Floors (2D)</li>
+
+                                            <li><i class="fas fa-check-circle"></i> Elevation Detail Drawing: (2D)</li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingProject">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#projectmanagement" aria-expanded="false" aria-controls="projectmanagement">
+                                        Project Management
+                                    </button>
+                                    </h2>
+                                    <div id="projectmanagement" class="accordion-collapse collapse" aria-labelledby="headingProject" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <ul>
+                                           <li><i class="fas fa-check-circle"></i>Site Engineer: Dedicated Full-Time Site Engineer</li>
+                                            <li><i class="fas fa-check-circle"></i>Project Manager: Daily Site Visit</li>
+                                            <li><i class="fas fa-check-circle"></i>Architect: Dedicated Architect through-out the Project. Stage Wise Site Visit. Material Selection Support.</li>
+
+                                        </ul>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingStructure">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#structure" aria-expanded="false" aria-controls="structure">
+                                        Structure
+                                    </button>
+                                    </h2>
+                                    <div id="structure" class="accordion-collapse collapse" aria-labelledby="headingStructure" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li><i class="fas fa-check-circle"></i>Basement Height: Upto 3.5 Feet</li>
+                                            <li><i class="fas fa-check-circle"></i>Steel: ARS or Equivalent</li>
+                                            <li><i class="fas fa-check-circle"></i>Wire-Cut Bricks: For Partition Walls. 9-Inch Thick Exterior Walls | 4 Inch Thick Inner Walls</li>
+                                            <li><i class="fas fa-check-circle"></i>Cement: Ramco / Dalmia</li>
+                                            <li><i class="fas fa-check-circle"></i>M Sand: Blockwork & All Masonry Works</li>
+                                            <li><i class="fas fa-check-circle"></i>River Sand: Plastering Works</li>
+                                            <li><i class="fas fa-check-circle"></i>Concrete Grade: M20 | RMC for Roof</li>
+                                            <li><i class="fas fa-check-circle"></i>Ceiling Height: 10 Feet(FFL to FFL)</li>
+                                            <li><i class="fas fa-check-circle"></i>Steel Reinforcement: As per HUNTER PROPERTY Structural Detailing</li>
+                                            <li><i class="fas fa-check-circle"></i>Parapet Wall: 3.5’ Feet Height | 6’ Thick</li>
+                                            <li><i class="fas fa-check-circle"></i>RCC Lift Pit: Included (If Required)</li>
+                                            <li><i class="fas fa-check-circle"></i>Lift Pit & Shaft: Included (If Required)</li>
+
+                                        </ul>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingPlumbing">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#plumbing" aria-expanded="false" aria-controls="plumbing">
+                                        Bathroom & Plumbing
+                                    </button>
+                                    </h2>
+                                    <div id="plumbing" class="accordion-collapse collapse" aria-labelledby="headingPlumbing" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li><i class="fas fa-check-circle"></i>Wall Tiles: Upto Ceiling (Full Height). Size 4’X2’ Digital Vitrified Tile. Upto ₹85/Sqft.</li>
+                                            <li><i class="fas fa-check-circle"></i>Bath & CP Fittings: Jaquar | Upto ₹22000 Per Bathroom | Wall Mounted EWC, Wall Mounted Wash Basin, Pillar Tap, Health Faucet, Shower Set, Concealed Wall Mixer</li>
+                                            <li><i class="fas fa-check-circle"></i>Plumbing Pipes & Fittings: Inner CPVC, Outer PVC, Brands: Ashirwad / Finolex</li>
+                                            <li><i class="fas fa-check-circle"></i>Overhead Tank: 3000 Litres Sintex | 5 Layer | UV Protected | White Colour, With Sensor</li>
+                                            <li><i class="fas fa-check-circle"></i>Solar Heater Plumbing Lines: Included (If Required)</li>
+
+                                        </ul>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingFlooring">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flooring" aria-expanded="false" aria-controls="flooring">
+                                        Flooring
+                                    </button>
+                                    </h2>
+                                    <div id="flooring" class="accordion-collapse collapse" aria-labelledby="headingFlooring" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li><i class="fas fa-check-circle"></i>Living, Dining, Bedrooms & Kitchen: 4’X2’ | Tiles Upto ₹80/Sqft. Somany / Kajaria / KAG / Sunheart</li>
+                                            <li><i class="fas fa-check-circle"></i>Balcony & Utility: Size 2’X2’ | Upto ₹60/Sqft</li>
+                                            <li><i class="fas fa-check-circle"></i>Staircase: Granite Upto ₹160/Sqft</li>
+                                            <li><i class="fas fa-check-circle"></i>Car Parking: ‘2X2’ Heavy Stonel | Upto ₹80/Sqft</li>
+                                            <li><i class="fas fa-check-circle"></i>Terrace Flooring: White Cooling Tile Size 1’X1’ | Anuj | with Waterproofing</li>
+
+                                        </ul>
+                                    </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingDining">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#dining" aria-expanded="false" aria-controls="dining">
+                                        Kitchen & Dining
+                                    </button>
+                                    </h2>
+                                    <div id="dining" class="accordion-collapse collapse" aria-labelledby="headingDining" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li><i class="fas fa-check-circle"></i>Wall Tile: Vitrified Tile (4’X2’) | Upto ₹65/Sqft</li>
+                                            <li><i class="fas fa-check-circle"></i>Sink Faucet: Designer Brand | Upto ₹3500/ Nos</li>
+                                            <li><i class="fas fa-check-circle"></i>Kitchen Sink: Quartz Sink with Drain Upto ₹5000</li>
+                                            <li><i class="fas fa-check-circle"></i>Dining: Wash Basin with Granite Counter</li>
+                                            <li><i class="fas fa-check-circle"></i>Kitchen Granite Top: Upto ₹160/Sqft</li>
+
+                                        </ul>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingDoor">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#door" aria-expanded="false" aria-controls="door">
+                                        Door, Windows and Railing
+                                    </button>
+                                    </h2>
+                                    <div id="door" class="accordion-collapse collapse" aria-labelledby="headingDoor" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li><i class="fas fa-check-circle"></i>Main Door: Ghana Teak Door & Teak Frame | 35mm Thickness | 5’X3’ Thick Frame | 8’ Height 4 Feet Width.</li>
+                                            <li><i class="fas fa-check-circle"></i>Room Doors: Flush Door with Laminate | Ghana Wood Frame | 7’X3’</li>
+                                            <li><i class="fas fa-check-circle"></i>Bathroom Doors: WPC Door & Frame | 7’X2.5’</li>
+                                            <li><i class="fas fa-check-circle"></i>Windows: UPVC Sliding White - No Restriction on Size and Quantity | 5mm Clear Glass</li>
+                                            <li><i class="fas fa-check-circle"></i>Staircase Railing: SS 304 Grade Railing</li>
+                                            <li><i class="fas fa-check-circle"></i>Balcony Railing: 10mm Full Toughened Glass with 304 Grade Railing</li>
+
+                                        </ul>		
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingPainting">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#painting" aria-expanded="false" aria-controls="painting">
+                                        Painting
+                                    </button>
+                                    </h2>
+                                    <div id="painting" class="accordion-collapse collapse" aria-labelledby="headingPainting" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li><i class="fas fa-check-circle"></i>Inner Wall Putty: 2 Coats of Wall Putty | Birla</li>
+                                            <li><i class="fas fa-check-circle"></i>Wall Painting: 1 Coat of Primer | 2 Coats of Pro Matex Gold Emulsion | Nippon</li>
+                                            <li><i class="fas fa-check-circle"></i>Ceiling Painting: 1 Coat of Primer | 2 Coats of Pro Matex Gold Emulsion | Nippon</li>
+                                            <li><i class="fas fa-check-circle"></i>Exterior Paint: 1 Coat of Primer | 2 Coats of Weather bond Pro  Nippon</li>
+                                            <li><i class="fas fa-check-circle"></i>Elevation Putty: 2 Coat of Putty for Two Sides of Elevation | Birla Wallseal Waterproof</li>
+
+                                        </ul>				
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingelectrical">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#electrical" aria-expanded="false" aria-controls="electrical">
+                                        Electrical
+                                    </button>
+                                    </h2>
+                                    <div id="electrical" class="accordion-collapse collapse" aria-labelledby="headingelectrical" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li><i class="fas fa-check-circle"></i>Wires - Finolex / Havells (FRLS)</li>
+                                            <li><i class="fas fa-check-circle"></i>Switches - GM</li>
+                                            <li><i class="fas fa-check-circle"></i>No Restriction on Number of Points. Except for Lifts, DG, Curtain Motors, Swimming Pool, RO Plant, Pressure Pump, Intercom, Surveillance System, Exterior Light Point, Gate Automation, Lightning Arrester, Hybrid Solar Heater, Water Fountain, HVAC Systems.</li>
+                                            <li><i class="fas fa-check-circle"></i>Electricity Panel Board - Single Service with RLCB - Exterior Grade</li>
+
+                                        </ul>				
+                                    </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingnotincluded">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#notincluded" aria-expanded="false" aria-controls="notincluded">
+                                        What's Not Included
+                                    </button>
+                                    </h2>
+                                    <div id="notincluded" class="accordion-collapse collapse" aria-labelledby="headingnotincluded" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li><i class="fas fa-check-circle"></i>Compound Wall &#64; 425/Sqft & Gate</li>
+                                            <li><i class="fas fa-check-circle"></i>Sump & Septic Tank &#64; 24/Litre</li>
+                                            <li><i class="fas fa-check-circle"></i>Lift</li>
+                                            <li><i class="fas fa-check-circle"></i>Electricity Connection</li>
+                                            <li><i class="fas fa-check-circle"></i>Building Plan Approval</li>
+                                            <li><i class="fas fa-check-circle"></i>Elevation Special Materials</li>
+
+                                        </ul>				
+                                    </div>
+                                    </div>
+                                </div>
+                             </div>
+                            </div>
+                             <div class="pricing-btn">
+                                <a href="pricing.html" class="theme-btn2">Purchase Now <i class="fas fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4">
+                      <div class="col-md-6 col-lg-3">
                         <div class="pricing-item wow fadeInUp" data-wow-delay=".25s">
                             <div class="pricing-header">
-                                <h5>Premium</h5>
+                                <h5>Ultra Luxury</h5>
                             </div>
                             <div class="pricing-price">
-                                <div class="pricing-icon">
+                                <!-- <div class="pricing-icon">
                                     <img src="assets/img/icon/building.svg" alt="">
-                                </div>
+                                </div> -->
                                 <div class="pricing-amount">
-                                    <strong>$959</strong><span class="pricing-amount-type">/Monthly</span>
+                                    <strong>₹ 3199</strong><span class="pricing-amount-type">/Sqft</span>
                                 </div>
+                            </div>
+                            
+                            <div class="pricing-feature">
+                                <div class="accordion">
+                                 <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingDesign">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#design" aria-expanded="true" aria-controls="design">
+                                        Design
+                                    </button>
+                                    </h2>
+                                    <div id="design" class="accordion-collapse collapse" aria-labelledby="headingDesign" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li><i class="fas fa-check-circle"></i>  Scheme Drawing: All Floors (2D)</li>
+
+                                            <li><i class="fas fa-check-circle"></i>  Elevation Design: (3D)</li>
+
+                                            <li><i class="fas fa-check-circle"></i>  Half Layout: All Floors (3D)</li>
+
+                                            <li><i class="fas fa-check-circle"></i> Electrical Drawings: All Floors (2D)</li>
+
+                                            <li><i class="fas fa-check-circle"></i> Plumbing Drawing: All Floors (2D)</li>
+
+                                            <li><i class="fas fa-check-circle"></i>  Working Drawing: All Floors (2D)</li>
+
+                                            <li><i class="fas fa-check-circle"></i> Soil Test Report</li>
+
+                                            <li><i class="fas fa-check-circle"></i>  Structural Drawings</li>
+
+                                            <li><i class="fas fa-check-circle"></i> Furniture Layout: All Floors (2D)</li>
+
+                                            <li><i class="fas fa-check-circle"></i> Elevation Detail Drawing: (2D)</li>
+
+                                            <li><i class="fas fa-check-circle"></i> Site Assessment & Site Plan</li>
+
+                                            <li><i class="fas fa-check-circle"></i> Interior Views: All Floors (3D)</li>
+
+                                            <li><i class="fas fa-check-circle"></i> Interior Detailing: All Rooms (2D)</li>
+
+                                            <li><i class="fas fa-check-circle"></i> Interior 3D Walk-Through</li>
+
+                                            <li><i class="fas fa-check-circle"></i> Approval Drawing</li>
+
+                                            <li><i class="fas fa-check-circle"></i> Landscaping Architectural Designs</li>
+                                                                                    </ul>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingProject">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#projectmanagement" aria-expanded="false" aria-controls="projectmanagement">
+                                        Project Management
+                                    </button>
+                                    </h2>
+                                    <div id="projectmanagement" class="accordion-collapse collapse" aria-labelledby="headingProject" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li><i class="fas fa-check-circle"></i>Site Engineer: Dedicated Full-Time Site Engineer</li>
+                                            <li><i class="fas fa-check-circle"></i>Project Manager: Daily Site Visit</li>
+                                            <li><i class="fas fa-check-circle"></i>Architect: Dedicated Architect. Frequent Site Visit. Material & Brand Selection Support Including Interiors and Home Decor.</li>
+
+                                        </ul>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingStructure">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#structure" aria-expanded="false" aria-controls="structure">
+                                        Structure
+                                    </button>
+                                    </h2>
+                                    <div id="structure" class="accordion-collapse collapse" aria-labelledby="headingStructure" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li><i class="fas fa-check-circle"></i>Basement Height: Upto 5 Feet</li>
+                                            <li><i class="fas fa-check-circle"></i>Steel: TATA Steel</li>
+                                            <li><i class="fas fa-check-circle"></i>Wire-Cut Bricks: For Partition Walls. 9-Inch Thick Exterior Walls | 4 Inch Thick Inner Walls</li>
+                                            <li><i class="fas fa-check-circle"></i>Cement: Ramco / Dalmia / Coamandel</li>
+                                            <li><i class="fas fa-check-circle"></i>River Sand: Blockwork & All Masonry Works</li>
+                                            <li><i class="fas fa-check-circle"></i>River Sand: Plastering Works</li>
+                                            <li><i class="fas fa-check-circle"></i>Concrete Grade: M25 | RMC for Roof</li>
+                                            <li><i class="fas fa-check-circle"></i>Ceiling Height: 11 Feet(FFL to FFL)</li>
+                                            <li><i class="fas fa-check-circle"></i>Steel Reinforcement: 1.5times Strength all as per HUNTER PROPERTY Structural Drawings and Detailing by HUNTER PROPERTY Structural Engineer</li>
+                                            <li><i class="fas fa-check-circle"></i>Parapet Wall: 3.5’ Feet Height | 6’ Thick (or) Toughened Glass Railing if Required.</li>
+                                            <li><i class="fas fa-check-circle"></i>RCC Lift Pit: Included (If Required)</li>
+                                            <li><i class="fas fa-check-circle"></i>RCC Concrete Slab for Base</li>
+                                            <li><i class="fas fa-check-circle"></i>Lift Pit & Shaft: Included (If Required)</li>
+
+                                        </ul>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingPlumbing">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#plumbing" aria-expanded="false" aria-controls="plumbing">
+                                        Bathroom & Plumbing
+                                    </button>
+                                    </h2>
+                                    <div id="plumbing" class="accordion-collapse collapse" aria-labelledby="headingPlumbing" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li><i class="fas fa-check-circle"></i>Wall Tiles: Upto Ceiling (Full Height). Size 4’X2’ Digital Vitrified Tile. Upto ₹120/Sqft.</li>
+                                            <li><i class="fas fa-check-circle"></i>Bath & CP Fittings: Kohler | Upto ₹60000 Per Bathroom | Concealed EWC, Counter Top Wash Basin, Marble Counter Slab, Pillar Tap, Health Faucet, Shower Set, Concealed Wall Mixer</li>
+                                            <li><i class="fas fa-check-circle"></i>Plumbing Pipes & Fittings: Inner CPVC, Outer PVC, HDPE Flexible Pipe. Brands: Ashirwad / Finolex / Jindal</li>
+                                            <li><i class="fas fa-check-circle"></i>RCC Overhead Tank: 6000 Litres with Waterproofing</li>
+                                            <li><i class="fas fa-check-circle"></i>Solar Heater Plumbing Lines: Included (If Required)</li>
+
+                                        </ul>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingFlooring">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flooring" aria-expanded="false" aria-controls="flooring">
+                                        Flooring
+                                    </button>
+                                    </h2>
+                                    <div id="flooring" class="accordion-collapse collapse" aria-labelledby="headingFlooring" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li><i class="fas fa-check-circle"></i>Living, Dining, Bedrooms & Kitchen: 6’X6’ | QuartsTiles Upto ₹200/Sqft.</li>
+                                            <li><i class="fas fa-check-circle"></i>Balcony & Utility: Size 2’X2’ | Upto ₹60/Sqft</li>
+                                            <li><i class="fas fa-check-circle"></i>Staircase: Marble Upto ₹350/Sqft</li>
+                                            <li><i class="fas fa-check-circle"></i>Car Parking: Granitel | Upto ₹120/Sqft</li>
+                                            <li><i class="fas fa-check-circle"></i>Terrace Flooring: 2’X2’ Exterior Grade Vitrified Tile. (Any Grade) | with Waterproofing</li>
+
+                                        </ul>
+                                    </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingDining">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#dining" aria-expanded="false" aria-controls="dining">
+                                        Kitchen & Dining
+                                    </button>
+                                    </h2>
+                                    <div id="dining" class="accordion-collapse collapse" aria-labelledby="headingDining" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li><i class="fas fa-check-circle"></i>Wall Tile: Vitrified Designer Tile (4’X2’) | Upto ₹125/Sqft</li>
+                                            <li><i class="fas fa-check-circle"></i>Sink Faucet: Floor Mounted Pull-Out | Upto ₹8000/ Nos</li>
+                                            <li><i class="fas fa-check-circle"></i>Kitchen Sink: Multifunctional Sink Upto ₹15000</li>
+                                            <li><i class="fas fa-check-circle"></i>Dining: Premium Designer Collection Wash Basin with Marble Counter and Designer Top</li>
+                                            <li><i class="fas fa-check-circle"></i>Kitchen Top: Quarts Stone Upto ₹350/Sqft</li>
+
+                                        </ul>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingDoor">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#door" aria-expanded="false" aria-controls="door">
+                                        Door, Windows and Railing
+                                    </button>
+                                    </h2>
+                                    <div id="door" class="accordion-collapse collapse" aria-labelledby="headingDoor" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li><i class="fas fa-check-circle"></i>Main Door: Designer Wood Door of Height upto 8 Feet X 5 Feet (or) Security Steel Door of Size (8’X4.5’) Pure Stainless Steel with Digital Lock.</li>
+                                            <li><i class="fas fa-check-circle"></i>Room Doors: Flush Door with Laminate | Ghana Wood Frame | 7’X3’</li>
+                                            <li><i class="fas fa-check-circle"></i>Bathroom Doors: Water Proof Flush Door with Designer Laminates | 8’X3’</li>
+                                            <li><i class="fas fa-check-circle"></i>Windows: Openable Type | UPVC Coloured | No Restriction on Size and Quantity | Toughened Glass</li>
+                                            <li><i class="fas fa-check-circle"></i>Staircase Railing: Toughened Glass with SS (or) Wood Railing (or) Aluminium</li>
+                                            <li><i class="fas fa-check-circle"></i>Balcony Railing: 10mm Full Toughened Glass with Aluminium Railing</li>
+
+                                        </ul>		
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingPainting">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#painting" aria-expanded="false" aria-controls="painting">
+                                        Painting
+                                    </button>
+                                    </h2>
+                                    <div id="painting" class="accordion-collapse collapse" aria-labelledby="headingPainting" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li><i class="fas fa-check-circle"></i>Inner Wall Putty: 2 Coats of Wall Putty | Birla</li>
+                                            <li><i class="fas fa-check-circle"></i>Wall Painting: 1 Coat of Primer | 2 Coats of Royal Shyne | Asian</li>
+                                            <li><i class="fas fa-check-circle"></i>Ceiling Painting: 1 Coat of Primer | 2 Coats of Royal Shyne | Nippon</li>
+                                            <li><i class="fas fa-check-circle"></i>Exterior Paint: 1 Coat of Primer | 2 Coats of Apex Ultima Protek | Asian</li>
+                                            <li><i class="fas fa-check-circle"></i>Elevation Putty: 2 Coat of Putty for All Sides of Elevation | Birla Wallseal Waterproofing</li>
+
+                                        </ul>				
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingelectrical">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#electrical" aria-expanded="false" aria-controls="electrical">
+                                        Electrical
+                                    </button>
+                                    </h2>
+                                    <div id="electrical" class="accordion-collapse collapse" aria-labelledby="headingelectrical" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li><i class="fas fa-check-circle"></i>Wires - Finolex / Havells (FRLS)</li>
+                                            <li><i class="fas fa-check-circle"></i>Switches - Touch Switches with Glass Plates.</li>
+                                            <li><i class="fas fa-check-circle"></i>No Restriction on Number of Points. Except for Lifts, DG, Curtain Motors, Swimming Pool, RO Plant, Pressure Pump, Intercom, Surveillance System, Exterior Light Point, Gate Automation, Lightning Arrester, Hybrid Solar Heater, Water Fountain, HVAC Systems.</li>
+                                            <li><i class="fas fa-check-circle"></i>Electricity Panel Board - Upto 2 Service Connection with RLCB Exterior Grade</li>
+
+                                        </ul>				
+                                    </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingnotincluded">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#notincluded" aria-expanded="false" aria-controls="notincluded">
+                                        What's Not Included
+                                    </button>
+                                    </h2>
+                                    <div id="notincluded" class="accordion-collapse collapse" aria-labelledby="headingnotincluded" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <ul>
+                                           <li><i class="fas fa-check-circle"></i>Compound Wall &#64; 425/Sqft & Gate</li>
+                                            <li><i class="fas fa-check-circle"></i>Sump & Septic Tank &#64; 24/Litre</li>
+                                            <li><i class="fas fa-check-circle"></i>Lift</li>
+                                            <li><i class="fas fa-check-circle"></i>Electricity Connection</li>
+                                            <li><i class="fas fa-check-circle"></i>Building Plan Approval</li>
+                                            <li><i class="fas fa-check-circle"></i>Elevation Special Materials</li>
+
+                                        </ul>				
+                                    </div>
+                                    </div>
+                                </div>
+                             </div>
                             </div>
                             <div class="pricing-btn">
                                 <a href="pricing.html" class="theme-btn2">Purchase Now <i class="fas fa-arrow-right"></i></a>
                             </div>
-                            <div class="pricing-feature">
-                                <ul>
-                                    <li><i class="fas fa-check-circle"></i>All Basic Services</li>
-                                    <li><i class="fas fa-check-circle"></i>Apartment Design</li>
-                                    <li><i class="fas fa-check-circle"></i>House Planning & Design</li>
-                                    <li><i class="fas fa-check-circle"></i>Custom House Design</li>
-                                    <li><i class="fas fa-check-circle"></i>Building Maintenance</li>
-                                    <li><i class="fas fa-check-circle"></i>24/7 Customer Support</li>
-                                </ul>
-                            </div>
                         </div>
                     </div>
                 </div>
+
+
             </div>
         </div>
         <!-- pricing area end -->
