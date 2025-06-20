@@ -23,6 +23,9 @@ Version         : 1.0
             $('.navbar').removeClass("fixed-top");
         }
     });
+
+ 
+
 })(jQuery);
 
 
